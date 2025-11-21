@@ -1,0 +1,15 @@
+/Users/fordhenley/Documents/GitHub/repos/Skyjo/Skyjo/bin/Debug/net8.0/Skyjo
+/Users/fordhenley/Documents/GitHub/repos/Skyjo/Skyjo/bin/Debug/net8.0/Skyjo.deps.json
+/Users/fordhenley/Documents/GitHub/repos/Skyjo/Skyjo/bin/Debug/net8.0/Skyjo.runtimeconfig.json
+/Users/fordhenley/Documents/GitHub/repos/Skyjo/Skyjo/bin/Debug/net8.0/Skyjo.dll
+/Users/fordhenley/Documents/GitHub/repos/Skyjo/Skyjo/bin/Debug/net8.0/Skyjo.pdb
+/Users/fordhenley/Documents/GitHub/repos/Skyjo/Skyjo/obj/Debug/net8.0/Skyjo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fordhenley/Documents/GitHub/repos/Skyjo/Skyjo/obj/Debug/net8.0/Skyjo.AssemblyInfoInputs.cache
+/Users/fordhenley/Documents/GitHub/repos/Skyjo/Skyjo/obj/Debug/net8.0/Skyjo.AssemblyInfo.cs
+/Users/fordhenley/Documents/GitHub/repos/Skyjo/Skyjo/obj/Debug/net8.0/Skyjo.csproj.CoreCompileInputs.cache
+/Users/fordhenley/Documents/GitHub/repos/Skyjo/Skyjo/obj/Debug/net8.0/Skyjo.sourcelink.json
+/Users/fordhenley/Documents/GitHub/repos/Skyjo/Skyjo/obj/Debug/net8.0/Skyjo.dll
+/Users/fordhenley/Documents/GitHub/repos/Skyjo/Skyjo/obj/Debug/net8.0/refint/Skyjo.dll
+/Users/fordhenley/Documents/GitHub/repos/Skyjo/Skyjo/obj/Debug/net8.0/Skyjo.pdb
+/Users/fordhenley/Documents/GitHub/repos/Skyjo/Skyjo/obj/Debug/net8.0/Skyjo.genruntimeconfig.cache
+/Users/fordhenley/Documents/GitHub/repos/Skyjo/Skyjo/obj/Debug/net8.0/ref/Skyjo.dll

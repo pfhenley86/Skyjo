@@ -4,9 +4,103 @@
     {
         static void Main(string[] args)
         {
-            //Build The Deck into a array holding all the cards in the game -- maybe half for a one player game
+            /***
+             * Deck **
+             */
+            
+            //Build The Deck into a List holding all the cards in the game -- maybe half for a one player game
+            List<int> deck = new List<int>();
+            
+            /***
+             * Cards **
+             */
+            
+            //Negative two cards - 5
+            int[] negativeTwoCards = [-2, -2, -2, -2, -2];
+            
+            //Zero cards - 15
+            int[] zeroCards = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+            
+            //Negative one cards - 10
+            int[] negativeOneCards = [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1];
+            
+            //One cards - 10
+            int[] oneCards = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
+            
+            //Two cards - 10
+            int[] twoCards = [2, 2, 2, 2, 2, 2, 2, 2, 2, 2];
+            
+            //Three cards - 10
+            int[] threeCards = [3, 3, 3, 3, 3, 3, 3, 3, 3, 3];
+            
+            //Four cards - 10
+            int[] fourCards = [4, 4, 4, 4, 4, 4, 4, 4, 4, 4];
+            
+            //Five cards - 10
+            int[] fiveCards = [5, 5, 5, 5, 5, 5, 5, 5, 5, 5];
+            
+            //Sixe cards - 10
+            int[] sixCards = [6, 6, 6, 6, 6, 6, 6, 6, 6, 6];
+            
+            //Seven cards - 10
+            int[] sevenCards = [7, 7, 7, 7, 7, 7, 7, 7, 7, 7];
+            
+            //Eight cards - 10
+            int[] eightCards = [8, 8, 8, 8, 8, 8, 8, 8, 8, 8];
+            
+            //Nine cards - 10
+            int[] nineCards = [9, 9, 9, 9, 9, 9, 9, 9, 9, 9];
+            
+            //Ten cards - 10
+            int[] tenCards = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10];
+            
+            //Eleven cards - 10
+            int[] elevenCards = [11, 11, 11, 11, 11, 11, 11, 11, 11, 11];
+            
+            //Twelve cards - 10
+            int[] twelveCards = [12, 12, 12, 12, 12, 12, 12, 12, 12, 12];
 
-            //Shuffle The Deck by randomizing the array
+            
+            /***
+             * Add Cards to Deck **
+             */
+            deck.AddRange(negativeOneCards);
+            deck.AddRange(zeroCards);
+            deck.AddRange(negativeTwoCards);
+            deck.AddRange(oneCards);
+            deck.AddRange(twoCards);
+            deck.AddRange(threeCards);
+            deck.AddRange(fourCards);
+            deck.AddRange(fiveCards);
+            deck.AddRange(sixCards);
+            deck.AddRange(sevenCards);
+            deck.AddRange(eightCards);
+            deck.AddRange(nineCards);
+            deck.AddRange(tenCards);
+            deck.AddRange(elevenCards);
+            deck.AddRange(twelveCards);
+            
+            Console.WriteLine(deck.Count);
+
+            /****
+             * Shuffle The Deck by randomizing the array
+             ****/
+            
+            // Shuffle using Fisher-Yates algorithm
+            Random rng = new Random();
+            for (int i = deck.Count - 1; i > 0; i--)
+            {
+                int j = rng.Next(i + 1); // random index between 0 and i
+                int temp = deck[i];
+                deck[i] = deck[j];
+                deck[j] = temp;
+            }
+
+            // Add shuffled numbers back to the list (duplicates original content)
+            deck.AddRange(deck);
+
+            // Print result
+            Console.WriteLine(string.Join(", ", deck));
 
             //Deal The Cards to the user into an array
 
