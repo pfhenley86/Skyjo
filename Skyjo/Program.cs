@@ -102,7 +102,9 @@
             // Print result
             Console.WriteLine(string.Join(", ", deck));
 
-            //Deal The Cards to the user into an array
+            /***
+             * Deal 12 Cards to the user into an array
+             */
 
             //Assign 12 cards to user in an array 
 
