@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "hmWASqvavQg=",
+  "dgSpecHash": "wA/DngHe7nE=",
   "success": true,
   "projectFilePath": "/Users/fordhenley/Documents/GitHub/repos/Skyjo/Skyjo/Skyjo.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/fordhenley/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/fordhenley/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/fordhenley/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.22/microsoft.netcore.app.host.osx-arm64.8.0.22.nupkg.sha512"
+  ],
   "logs": []
 }
