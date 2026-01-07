@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Skyjo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c8dfb3704a23847811cafa6ac4a154e24a45ac6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11bace2457e9ca8e24459a9258d0243da96f09a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Skyjo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Skyjo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
